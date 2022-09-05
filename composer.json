@@ -1,0 +1,14 @@
+{
+    "name": "dmnikolaevv/converter",
+    "autoload": {
+        "psr-4": {
+            "Dmnikolaevv\\Converter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DimonNikolaev",
+            "email": "dmitriy.nikolaev1337@gmail.com"
+        }
+    ]
+}
