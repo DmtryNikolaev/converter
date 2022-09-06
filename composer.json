@@ -10,5 +10,8 @@
             "name": "DimonNikolaev",
             "email": "dmitriy.nikolaev1337@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "twig/twig": "^3.4"
+    }
 }
