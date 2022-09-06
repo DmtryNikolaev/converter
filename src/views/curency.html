@@ -1,0 +1,8 @@
+{% extends "./app.html" %}
+{% block content %}
+<ul class="list-group">
+    {% for name, currency in listOfCurrency %}
+    <li class="list-group-item"><b>{{name}}</b>: {{ currency }} $</li>
+    {% endfor %}
+</ul>
+{% endblock %}
