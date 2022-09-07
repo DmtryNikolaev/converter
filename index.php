@@ -38,7 +38,9 @@ function setCache(array $cost, string $currency, string $crypto): bool
     return false;
 }
 
-if (isset($_POST['conversion'])) {
+if ($_POST['conversion'] === '') {
+    $result = 'Введите значение';
+} elseif (isset($_POST['conversion'])) {
     $request = $_POST['conversion'];
     [$count, $crypto,, $currency] = explode(' ', $request);
     $crypto = strtoupper($crypto);
@@ -58,5 +60,5 @@ if (isset($_POST['conversion'])) {
 <form method="POST" class="col-6 p-0">
     <input type="text" name="conversion" class="form-control mb-2" placeholder="2 btc in usd">
     <input type="submit" value="Расчет" class="btn btn-primary w-100">
-    <span>Расчет: <b><?= $result; ?></b></span>
+    <span> <b><?= $result ?></b></span>
 </form>
