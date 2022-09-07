@@ -7,3 +7,5 @@
 На странице `http://localhost:8000/` будет форма с конвертером, на http://localhost:8000/curency.php список криптовалют
 
 Логика запроса происходит в index.php
+
+или посмотреть проект на хостинге `http://dmitrsgu.beget.tech/converter/`
