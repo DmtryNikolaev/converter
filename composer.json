@@ -13,5 +13,11 @@
     ],
     "require": {
         "twig/twig": "^3.4"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
     }
 }
