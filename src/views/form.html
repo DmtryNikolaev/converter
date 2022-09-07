@@ -1,9 +1,0 @@
-{% extends "./app.html" %}
-{% block content %}
-<form action='/src/Handler.php' method="POST" class="col-6">
-    <label for="wallet" class="form-label">Введите валюту</label>
-    <input type="password" id="wallet" class="form-control mb-2" aria-describedby="passwordHelpBlock"
-        placeholder="2 btc in usd">
-    <button type="submit" class="btn btn-primary w-100">Расчет</button>
-</form>
-{% endblock %}
